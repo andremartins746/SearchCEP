@@ -1,9 +1,0 @@
-.conteiner-informacao {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    border: 1px solid green;
-    padding: 8%;
-    border-radius: 8px;
-    margin-bottom: 15%;
-}

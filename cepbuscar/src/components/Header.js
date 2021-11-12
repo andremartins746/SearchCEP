@@ -1,10 +1,11 @@
 import React from "react"
+import Div from "../components/header.style"
 
 const Header = (props) => {
     return(
-        <div>
-            <h3>{}</h3>
-        </div>
+        <Div>
+            <h3>{props.title}</h3>
+        </Div>
     )
 }
 

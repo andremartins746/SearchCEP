@@ -1,8 +1,9 @@
 import React from "react"
-import "../components/handlecep.css"
+
+import { Conteiner } from "../components/handlecep.style"
 const handlecep = (props) => {
     return (
-        <div className="conteiner-informacao">
+        <Conteiner>
             <h1>Informações</h1>
             <ul>
                 <li>RUA: {props.address}</li>
@@ -10,8 +11,8 @@ const handlecep = (props) => {
                 <li>CEP: {props.code}</li>
                 <li>BAIRRO: {props.district}</li>
             </ul>
-       
-        </div>
+        </Conteiner>
+      
     )
 }
 
